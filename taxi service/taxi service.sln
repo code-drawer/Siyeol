@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "taxi service", "taxi service\taxi service.pyproj", "{C622E075-C4BA-4435-A7CB-95FCD3D2C3FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C622E075-C4BA-4435-A7CB-95FCD3D2C3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C622E075-C4BA-4435-A7CB-95FCD3D2C3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C33E162-44CD-4232-9F6B-BD4B54534621}
+	EndGlobalSection
+EndGlobal
