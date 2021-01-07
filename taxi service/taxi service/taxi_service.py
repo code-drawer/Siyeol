@@ -12,4 +12,17 @@
 # [ ] 50번째 손님 (소요시간: 16분)
 
 # 총 탑승 승객: 2 분
+from random import random
+from random import randrange
 
+if __name__ == "__main__":
+	count = 0 # 총 탑승 승객 수
+	for i in range(1, 51): # 1 ~ 50사이의 수
+		time = randrange(5, 51) # 5 ~ 50분 소요시간
+		if 5 <= time <= 15: # 5 ~ 15분 이내의 손님 (매칭 성공), 탑승 승객 수 증가 처리
+			print("[O] {0}번째 손님 (소요시간: {1}분)".format(i, time))
+			count += 1
+		else: # 매칭 실패한 경우
+			print("[ ] {0}번째 손님 (소요시간: {1}분)".format(i, time))
+
+	print("총 탑승 승객: {0} 분".format(count))
